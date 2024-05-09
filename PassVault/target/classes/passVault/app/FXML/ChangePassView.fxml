@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="400.0" maxWidth="600.0" minHeight="400.0" minWidth="381.0" stylesheets="@../CSS/CreateMasterPassStyle.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="passVault.app.FirstStartupController">
+    <Button fx:id="Next" layoutX="57.0" layoutY="284.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="268.0" text="Next" />
+   <Label fx:id="Setup" layoutY="14.0" prefHeight="81.0" prefWidth="381.0" text="Make a New Password" />
+   <PasswordField fx:id="InputPass" layoutX="50.0" layoutY="223.0" prefHeight="34.0" prefWidth="282.0" promptText="Confirm Password" />
+   <PasswordField fx:id="ConfirmPass" layoutX="50.0" layoutY="133.0" prefHeight="34.0" prefWidth="282.0" promptText="Master Password" />
+   <Label fx:id="PassConfirm" layoutX="50.0" layoutY="193.0" prefHeight="30.0" prefWidth="190.0" text="Confirm your new password." />
+   <Label fx:id="PassInput" layoutX="50.0" layoutY="103.0" prefHeight="30.0" prefWidth="176.0" text="Input your new password." />
+</AnchorPane>

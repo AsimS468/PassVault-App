@@ -1,0 +1,142 @@
+.root {
+    -fx-background-color: linear-gradient(to bottom, #424242,#212121);
+}
+
+#ProfileData{
+    -fx-background-color: linear-gradient(to bottom, #252525,#181818);
+}
+
+.scroll-pane {
+    -fx-background-color: linear-gradient(to bottom, #252525,#181818);
+}
+
+.scroll-bar:vertical{
+    -fx-background-color:transparent;
+}
+
+.increment-button, .decrement-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.scroll-bar:vertical .track{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0em;
+}
+
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #707070;
+    -fx-background-radius: 5em;
+}
+
+.scroll-bar:vertical .thumb:hover {
+    -fx-background-color: #bababa;
+    -fx-background-radius: 5em;
+}
+
+.scroll-pane > .corner {
+    -fx-background-color: transparent;
+}
+
+#ProfileNameLabel {
+    -fx-font-size: 25;
+    -fx-font-family: 'Nunito ExtraBold';
+    -fx-text-fill: #15b300;
+    -fx-alignment: center;
+
+}
+
+#EmailLabel {
+    -fx-font-size: 15;
+    -fx-transition: all 400ms;
+    -fx-background-color: transparent;
+    -fx-outline: none;
+    -fx-text-fill: #ffffff;
+    -fx-font-family: 'Typo Grotesk Rounded';
+    -fx-border-width: 0 0 1.5 0;
+    -fx-border-color: #15b300;
+}
+
+#UsernameLabel {
+    -fx-font-size: 15;
+    -fx-transition: all 400ms;
+    -fx-background-color: transparent;
+    -fx-outline: none;
+    -fx-text-fill: #ffffff;
+    -fx-font-family: 'Typo Grotesk Rounded';
+    -fx-border-width: 0 0 1.5 0;
+    -fx-border-color: #15b300;
+}
+
+#PasswordLabel {
+    -fx-font-size: 15;
+    -fx-transition: all 400ms;
+    -fx-background-color: transparent;
+    -fx-outline: none;
+    -fx-text-fill: #ffffff;
+    -fx-font-family: 'Typo Grotesk Rounded';
+    -fx-border-width: 0 0 1.5 0;
+    -fx-border-color: #15b300;
+}
+
+.button {
+    -fx-background-color: #15b300;
+    -fx-border: none;
+    -fx-transition: all 400ms;
+    -fx-font-family: 'Nunito ExtraBold';
+    -fx-alignment: center;
+}
+
+.button:hover {
+    -fx-background-color: #1eff00;
+    -fx-box-shadow: none;
+}
+
+#Logout {
+    -fx-background-color: #15b300;
+    -fx-border: none;
+    -fx-transition: all 400ms;
+    -fx-font-family: 'Nunito ExtraBold';
+    -fx-alignment: center;
+}
+
+#Logout:hover {
+    -fx-background-color: #1eff00;
+    -fx-box-shadow: none;
+}
+
+#ChangeMPass {
+    -fx-background-color: #15b300;
+    -fx-border: none;
+    -fx-transition: all 400ms;
+    -fx-font-family: 'Nunito ExtraBold';
+    -fx-alignment: center;
+}
+
+#ChangeMPass:hover {
+    -fx-background-color: #1eff00;
+    -fx-box-shadow: none;
+}
+
+#titleBar {
+    -fx-background-color: transparent;
+}
+
+.password-field {
+    -fx-transition: all 400ms;
+    -fx-background-color: transparent;
+    -fx-color: #bababa;
+    -fx-border: none;
+    -fx-outline: none;
+    -fx-prompt-text-fill: #707070;
+    -fx-text-fill: #707070;
+    -fx-font-family: 'Typo Grotesk Rounded';
+    -fx-border-width: 0 0 1.5 0;
+    -fx-border-color: #15b300;
+}
+
+.password-field:hover {
+    -fx-background-color: #424242;
+    -fx-border: none;
+}

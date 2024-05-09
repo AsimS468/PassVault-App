@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="400.0" maxWidth="600.0" minHeight="400.0" minWidth="381.0" stylesheets="@../CSS/LoginStyle.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="passVault.app.LoginController">
+
+    <PasswordField fx:id="passwordField" layoutX="50.0" layoutY="175.0" prefHeight="34.0" prefWidth="282.0" promptText="Master Password" />
+    <Button fx:id="loginButton" layoutX="57.0" layoutY="239.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="268.0" text="Login" onAction="#onLoginButtonClick" />
+    <Button fx:id="forgotPasswordButton" layoutX="133.0" layoutY="290.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="117.0" text="Forgot Password?" />
+    <Label fx:id="login" layoutY="79.0" prefHeight="17.0" prefWidth="381.0" text="PassVault" />
+   <Hyperlink fx:id="ShowPasswordButton" layoutX="50.0" layoutY="209.0" prefHeight="23.0" prefWidth="128.0" text="Show Password" />
+   <Label fx:id="wrongPassword" layoutX="1.0" layoutY="160.0" prefHeight="8.0" prefWidth="381.0" />
+</AnchorPane>

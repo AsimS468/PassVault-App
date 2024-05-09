@@ -1,0 +1,94 @@
+.root {
+    -fx-background-color: linear-gradient(to bottom, #424242,#212121);
+}
+
+#Prompt1 {
+    -fx-font-size: 25;
+    -fx-font-family: 'Nunito ExtraBold';
+    -fx-text-fill: #15b300;
+    -fx-alignment: center;
+}
+
+#Prompt2 {
+    -fx-font-size: 25;
+    -fx-font-family: 'Nunito ExtraBold';
+    -fx-text-fill: #15b300;
+    -fx-alignment: center;
+}
+
+#1 {
+    -fx-font-size: 20;
+    -fx-font-family: 'Nunito ExtraBold';
+    -fx-text-fill: #15b300;
+    -fx-alignment: center;
+}
+
+#2 {
+    -fx-font-size: 20;
+    -fx-font-family: 'Nunito ExtraBold';
+    -fx-text-fill: #15b300;
+    -fx-alignment: center;
+}
+
+#3 {
+    -fx-font-size: 20;
+    -fx-font-family: 'Nunito ExtraBold';
+    -fx-text-fill: #15b300;
+    -fx-alignment: center;
+}
+
+#PassInput {
+    -fx-font-size: 15;
+    -fx-font-family: 'Nunito ExtraBold';
+    -fx-text-fill: #15b300;
+    -fx-alignment: center;
+}
+
+#PassConfirm {
+    -fx-font-size: 15;
+    -fx-font-family: 'Nunito ExtraBold';
+    -fx-text-fill: #15b300;
+    -fx-alignment: center;
+}
+
+#Next {
+    -fx-background-color: #15b300;
+    -fx-border: none;
+    -fx-transition: all 400ms;
+    -fx-font-family: 'Nunito ExtraBold';
+    -fx-alignment: center;
+    -fx-font-size: 20;
+}
+
+#Next:hover {
+    -fx-background-color: #1eff00;
+    -fx-box-shadow: none;
+}
+
+#titleBar {
+    -fx-background-color: transparent;
+}
+
+#ErrorLabel {
+    -fx-font-family: 'Typo Grotesk Rounded';
+    -fx-text-fill: #15b300;
+    -fx-alignment: center;
+}
+
+.text-field {
+    -fx-transition: all 400ms;
+    -fx-background-color: transparent;
+    -fx-color: #bababa;
+    -fx-border: none;
+    -fx-outline: none;
+    -fx-prompt-text-fill: #707070;
+    -fx-text-fill: #707070;
+    -fx-font-family: 'Typo Grotesk Rounded';
+    -fx-border-width: 0 0 1.5 0;
+    -fx-border-color: #15b300;
+}
+
+.text-field:hover {
+    -fx-background-color: #424242;
+    -fx-border: none;
+}

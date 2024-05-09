@@ -1,0 +1,83 @@
+.root {
+    -fx-background-color: linear-gradient(to bottom, #424242,#212121);
+}
+
+#Setup {
+    -fx-font-size: 25;
+    -fx-font-family: 'Nunito ExtraBold';
+    -fx-text-fill: #15b300;
+    -fx-alignment: center;
+}
+
+#PassInput {
+    -fx-font-size: 15;
+    -fx-font-family: 'Nunito ExtraBold';
+    -fx-text-fill: #15b300;
+}
+
+#PassConfirm {
+    -fx-font-size: 15;
+    -fx-font-family: 'Nunito ExtraBold';
+    -fx-text-fill: #15b300;
+}
+
+#NewProfile {
+    -fx-background-color: #15b300;
+    -fx-border: none;
+    -fx-transition: all 400ms;
+    -fx-font-family: 'Nunito ExtraBold';
+    -fx-alignment: center;
+}
+
+#NewProfile:hover {
+    -fx-background-color: #1eff00;
+    -fx-box-shadow: none;
+}
+
+#Logout {
+    -fx-background-color: #15b300;
+    -fx-border: none;
+    -fx-transition: all 400ms;
+    -fx-font-family: 'Nunito ExtraBold';
+    -fx-alignment: center;
+}
+
+#Logout:hover {
+    -fx-background-color: #1eff00;
+    -fx-box-shadow: none;
+}
+
+#ChangeMPass {
+    -fx-background-color: #15b300;
+    -fx-border: none;
+    -fx-transition: all 400ms;
+    -fx-font-family: 'Nunito ExtraBold';
+    -fx-alignment: center;
+}
+
+#ChangeMPass:hover {
+    -fx-background-color: #1eff00;
+    -fx-box-shadow: none;
+}
+
+#titleBar {
+    -fx-background-color: transparent;
+}
+
+.password-field {
+    -fx-transition: all 400ms;
+    -fx-background-color: transparent;
+    -fx-color: #bababa;
+    -fx-border: none;
+    -fx-outline: none;
+    -fx-prompt-text-fill: #707070;
+    -fx-text-fill: #707070;
+    -fx-font-family: 'Typo Grotesk Rounded';
+    -fx-border-width: 0 0 1.5 0;
+    -fx-border-color: #15b300;
+}
+
+.password-field:hover {
+    -fx-background-color: #424242;
+    -fx-border: none;
+}
